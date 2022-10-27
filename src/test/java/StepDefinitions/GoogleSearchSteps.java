@@ -18,6 +18,7 @@ public class GoogleSearchSteps {
 
 	@SuppressWarnings("deprecation")
 	@Given("browser is open")
+//	login
 	public void browser_is_open() {
 		System.out.println("Inside steps - browser is open");
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Pasindu Ishan\\eclipse-workspace\\CucumberJava\\src\\test\\resources\\drivers\\chromedriver.exe");
